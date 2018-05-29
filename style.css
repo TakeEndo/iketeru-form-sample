@@ -1,0 +1,36 @@
+:root {
+    --line-height: 40px;
+}
+.flex-wrapper{
+    display: flex;
+    height: var(--line-height);
+    margin-bottom: 10px;
+}
+.flex-title {
+    flex-basis: 20%;
+    line-height: var(--line-height);
+}
+.flex-input {
+    flex-basis: 80%;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 3px;
+    padding: 5px;
+}
+.flex-input:focus {
+    outline: 0;
+    box-shadow: 0 0 10px;
+}
+
+.main {
+    text-align: center;
+    margin: 10px 100px;
+}
+.button {
+    width:200px;
+    height: var(--line-height);
+    cursor: pointer;
+    background-color: #222222;
+    color: snow;
+    border: none;
+    border-radius: 3px;
+}
